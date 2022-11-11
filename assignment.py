@@ -68,7 +68,6 @@ plt.legend()  #To show the label names in form of a box
 plt.savefig('Bar graph.png') #Saving the image of the line graph
 plt.show()  #To display the image of the line graph
 
-
 #Defining a function for the pie chart with three parameters and plotting the pie chart
 def pie_chart(drug_use, age):
     plt.pie(drug_use, labels=age, autopct="%2.1f%%")  #autopct is to display the plot in terms of percentage
